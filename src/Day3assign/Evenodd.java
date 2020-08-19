@@ -1,6 +1,6 @@
 package Day3assign;
 
-public class EvenOdd {
+public class Evenodd {
 
     public static void main(String[] args){
         double number = 500121;

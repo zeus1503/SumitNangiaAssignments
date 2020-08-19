@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Cube {
     public static void main(String[] args){
-        System.out.println("Provide a number for cubing");
+        System.out.println("Provide a number for cubi2ng");
         Scanner abc =new Scanner(System.in);
 
         double number = abc.nextDouble();

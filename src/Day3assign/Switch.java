@@ -3,7 +3,7 @@ package Day3assign;
 public class Switch {
 
     public static void main(String[] args) {
-        int i= 6;
+        int i= 2;
 	String Month="";
         switch (i)
         {
