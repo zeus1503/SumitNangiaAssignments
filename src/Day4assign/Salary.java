@@ -48,15 +48,21 @@ public class Salary {
 
                 if (saltotal > 300000 && saltotal <= 500000) {
                     tax = (saltotal - 300000) * 0.2;
+                    saltotal = saltotal - 300000;
                     System.out.println("\n");
-                    break;
-                } else if (saltotal > 500000 && saltotal <= 800000) {
+
+                }
+
+                if (saltotal > 500000 && saltotal <= 800000) {
                     tax1 = (saltotal - 500000) * 0.25;
                     saltotal = saltotal - 500000;
                     System.out.println("\n");
-                } else {
+                }
+
+                if(saltotal>800000) {
                     tax2 = (saltotal - 800000) * 0.3;
                     saltotal = saltotal - 800000;
+                    System.out.println("\n");
                 }
                 double total = tax+tax1+tax2;
                 System.out.println("Total tax payable is: "+ total);
