@@ -37,6 +37,7 @@ public class Salary {
         double tax = 0;
         double tax1 = 0;
         double tax2 = 0;
+        double total =0;
 
         if (saltotal <= 300000) {
             System.out.println("No Tax");
@@ -64,10 +65,10 @@ public class Salary {
                     saltotal = saltotal - 800000;
                     System.out.println("\n");
                 }
-                double total = tax+tax1+tax2;
-                System.out.println("Total tax payable is: "+ total);
+                 total = tax+tax1+tax2;
             }
         }
+        System.out.println("Total tax payable is: "+ total);
     }
 }
 
