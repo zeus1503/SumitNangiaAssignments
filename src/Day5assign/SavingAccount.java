@@ -1,0 +1,35 @@
+package Day5assign;
+
+final public class SavingAccount extends Account{
+
+    double interest = 4;
+    final double minBalance = 5000;
+
+    public SavingAccount(int a, String b, double c) {
+        super.AccountNumber = a;
+        super.AccountName = b;
+        super.amount = c;
+    }
+
+    @Override
+    public void deposit(double depo){
+        amount = amount + depo;
+        System.out.println("Deposit Successful");
+        System.out.println("Balance after deposit is : " + amount);
+
+    }
+    @Override
+    public void withdraw(double with){
+        if (amount < minBalance) {
+            System.out.println("Unable to withdraw. Amount is less than minimum balance required");
+        } else {
+            amount = amount - with;
+                if(amount>0){
+                System.out.println("Balance after withdrawal is : " + amount);}
+                else{
+                    System.out.println("Requested Withdrawal is greater than account balance");}
+
+        }
+    }
+
+    }
