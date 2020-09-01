@@ -1,4 +1,4 @@
-package Day5assign;
+package Day5assign.BankAccountQuestion;
 
 import java.util.Scanner;
 

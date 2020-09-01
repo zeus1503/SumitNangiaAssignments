@@ -1,6 +1,8 @@
-package Day5assign;
+package Day5assign.BankAccountQuestion;
 
-final public class SavingAccount extends Account{
+import Day5assign.BankAccountQuestion.Account;
+
+final public class SavingAccount extends Account {
 
     double interest = 4;
     final double minBalance = 5000;

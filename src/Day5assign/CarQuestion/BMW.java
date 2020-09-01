@@ -1,4 +1,6 @@
-package Day5assign;
+package Day5assign.CarQuestion;
+
+import Day5assign.CarQuestion.Car;
 
 public class BMW extends Car {
 

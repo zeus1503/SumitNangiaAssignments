@@ -1,4 +1,6 @@
-package Day5assign;
+package Day5assign.BankAccountQuestion;
+
+import Day5assign.BankAccountQuestion.Account;
 
 final public class CurrentAccount extends Account {
 

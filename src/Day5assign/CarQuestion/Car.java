@@ -1,4 +1,4 @@
-package Day5assign;
+package Day5assign.CarQuestion;
 
 public class Car {
 
