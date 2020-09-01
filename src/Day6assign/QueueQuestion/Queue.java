@@ -1,4 +1,4 @@
-package Day6assign;
+package Day6assign.QueueQuestion;
 
 public interface Queue {
 

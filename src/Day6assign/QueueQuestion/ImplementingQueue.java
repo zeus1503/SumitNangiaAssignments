@@ -1,4 +1,4 @@
-package Day6assign;
+package Day6assign.QueueQuestion;
 
 
 import java.util.Scanner;
