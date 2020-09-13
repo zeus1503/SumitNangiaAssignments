@@ -14,7 +14,7 @@ public class Ques2_FileExistsOrNot {
             System.out.println("File exist");
         }
         else {
-            System.out.println("File doest not exist");
+            System.out.println("File does not exist");
         }
     }
 
